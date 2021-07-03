@@ -1,6 +1,14 @@
-#include <stdio.h>
+#include "philo.h"
 
-int main() {
-	printf("Hello, World!\n");
+int error_with_message(const char *str)
+{
+	printf("%s", str);
+	return (1);
+}
+
+int main(int argc, char **argv)
+{
+	if (argc < 5)
+		return (error_with_message("Error: wrong number of arguments\n"));
 	return 0;
 }

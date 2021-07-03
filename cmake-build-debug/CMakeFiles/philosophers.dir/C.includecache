@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aabet/projects/philosophers/philosophers/main.c
+philo.h
+/Users/aabet/projects/philosophers/philosophers/philo.h
+
+/Users/aabet/projects/philosophers/philosophers/philo.h
+unistd.h
+-
+stdlib.h
+-
+limits.h
+-
+stdio.h
+-
+
