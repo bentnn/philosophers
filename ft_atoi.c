@@ -27,3 +27,8 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)result * minus);
 }
+
+int ft_isdigit(int ch)
+{
+	return (ch > 47 && ch < 58);
+}

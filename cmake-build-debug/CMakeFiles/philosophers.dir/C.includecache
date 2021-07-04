@@ -19,4 +19,8 @@ limits.h
 -
 stdio.h
 -
+pthread.h
+-
+sys/time.h
+-
 
