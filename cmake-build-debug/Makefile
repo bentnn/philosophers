@@ -142,32 +142,32 @@ philosophers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/build
 .PHONY : philosophers/fast
 
-ft_atoi.o: ft_atoi.c.o
+data_func.o: data_func.c.o
 
-.PHONY : ft_atoi.o
+.PHONY : data_func.o
 
 # target to build an object file
-ft_atoi.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/ft_atoi.c.o
-.PHONY : ft_atoi.c.o
+data_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/data_func.c.o
+.PHONY : data_func.c.o
 
-ft_atoi.i: ft_atoi.c.i
+data_func.i: data_func.c.i
 
-.PHONY : ft_atoi.i
+.PHONY : data_func.i
 
 # target to preprocess a source file
-ft_atoi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/ft_atoi.c.i
-.PHONY : ft_atoi.c.i
+data_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/data_func.c.i
+.PHONY : data_func.c.i
 
-ft_atoi.s: ft_atoi.c.s
+data_func.s: data_func.c.s
 
-.PHONY : ft_atoi.s
+.PHONY : data_func.s
 
 # target to generate assembly for a file
-ft_atoi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/ft_atoi.c.s
-.PHONY : ft_atoi.c.s
+data_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/data_func.c.s
+.PHONY : data_func.c.s
 
 main.o: main.c.o
 
@@ -196,6 +196,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/main.c.s
 .PHONY : main.c.s
 
+simple_func.o: simple_func.c.o
+
+.PHONY : simple_func.o
+
+# target to build an object file
+simple_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func.c.o
+.PHONY : simple_func.c.o
+
+simple_func.i: simple_func.c.i
+
+.PHONY : simple_func.i
+
+# target to preprocess a source file
+simple_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func.c.i
+.PHONY : simple_func.c.i
+
+simple_func.s: simple_func.c.s
+
+.PHONY : simple_func.s
+
+# target to generate assembly for a file
+simple_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func.c.s
+.PHONY : simple_func.c.s
+
+simple_func2.o: simple_func2.c.o
+
+.PHONY : simple_func2.o
+
+# target to build an object file
+simple_func2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func2.c.o
+.PHONY : simple_func2.c.o
+
+simple_func2.i: simple_func2.c.i
+
+.PHONY : simple_func2.i
+
+# target to preprocess a source file
+simple_func2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func2.c.i
+.PHONY : simple_func2.c.i
+
+simple_func2.s: simple_func2.c.s
+
+.PHONY : simple_func2.s
+
+# target to generate assembly for a file
+simple_func2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func2.c.s
+.PHONY : simple_func2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,12 +259,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... philosophers"
-	@echo "... ft_atoi.o"
-	@echo "... ft_atoi.i"
-	@echo "... ft_atoi.s"
+	@echo "... data_func.o"
+	@echo "... data_func.i"
+	@echo "... data_func.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... simple_func.o"
+	@echo "... simple_func.i"
+	@echo "... simple_func.s"
+	@echo "... simple_func2.o"
+	@echo "... simple_func2.i"
+	@echo "... simple_func2.s"
 .PHONY : help
 
 

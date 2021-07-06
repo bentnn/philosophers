@@ -4,8 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/aabet/projects/philosophers/philosophers/ft_atoi.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/ft_atoi.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/data_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/data_func.c.o"
   "/Users/aabet/projects/philosophers/philosophers/main.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/main.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/simple_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/simple_func.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/simple_func2.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/simple_func2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

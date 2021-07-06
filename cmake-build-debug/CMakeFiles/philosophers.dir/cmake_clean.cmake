@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/philosophers.dir/ft_atoi.c.o"
+  "CMakeFiles/philosophers.dir/data_func.c.o"
   "CMakeFiles/philosophers.dir/main.c.o"
+  "CMakeFiles/philosophers.dir/simple_func.c.o"
+  "CMakeFiles/philosophers.dir/simple_func2.c.o"
   "philosophers"
   "philosophers.pdb"
 )
