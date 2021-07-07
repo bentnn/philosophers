@@ -1,14 +1,14 @@
 NAME	=	philo
 
-SRCS	=	philo/main.c\
-			philo/data_func.c\
-			philo/routines.c\
-			philo/simple_func.c\
-			philo/simple_func2.c
+SRCS	=	srcs/main.c\
+			srcs/data_func.c\
+			srcs/routines.c\
+			srcs/simple_func.c\
+			srcs/simple_func2.c
 
-HEADER	=	./srcs/philo.h
+HEADER	=	srcs/philo.h
 
-OBJS	:=	$(SRCS:.c=.o)
+OBJS	=	$(SRCS:.c=.o)
 
 FLAGS	=	-Wall -Wextra -Werror
 

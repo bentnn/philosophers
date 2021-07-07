@@ -3,4 +3,4 @@ project(philosophers C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(philosophers philo/main.c philo/simple_func.c philo/philo.h philo/data_func.c philo/simple_func2.c philo/routines.c)
+add_executable(philosophers srcs/main.c srcs/simple_func.c srcs/philo.h srcs/data_func.c srcs/simple_func2.c srcs/routines.c)

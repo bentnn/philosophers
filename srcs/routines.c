@@ -1,12 +1,22 @@
 #include "philo.h"
 
+int	get_time(t_data *data, int time)
+{
+	int	c;
+
+	c = data->ttd - (int)time_stop(data->last_eating);
+	if (c < time)
+		return (c);
+	return (time);
+}
+
 void	*after_taking_a_forks(t_data *data)
 {
 	printf("%ldms %d has taken a fork\n", time_stop(data->start), data->id);
 	data->is_eating = 1;
 	printf("%ldms %d is eating\n", time_stop(data->start), data->id);
 	pthread_mutex_unlock(&data->outp);
-	usleep(data->tte * 1000);
+	usleep(get_time(data, data->tte) * 1000);
 	pthread_mutex_unlock(&data->forks[data->id - 1]);
 	pthread_mutex_unlock(get_my_left_fork(data));
 	gettimeofday(&data->last_eating, 0);
@@ -19,7 +29,7 @@ void	*after_taking_a_forks(t_data *data)
 		return (return_and_unlock(&data->outp, 0));
 	printf("%ldms %d is sleeping\n", time_stop(data->start), data->id);
 	pthread_mutex_unlock(&data->outp);
-	usleep(data->tts * 1000);
+	usleep(get_time(data, data->tts) * 1000);
 	pthread_mutex_lock(&data->outp);
 	if (*data->stop == 1)
 		return (return_and_unlock(&data->outp, 0));
@@ -34,7 +44,7 @@ void	*routine_right(void *arg)
 
 	data = (t_data *)arg;
 	gettimeofday(&data->last_eating, 0);
-	while (*data->stop != 1)
+	while (arg && *data->stop != 1)
 	{
 		pthread_mutex_lock(&data->forks[data->id - 1]);
 		pthread_mutex_lock(&data->outp);
