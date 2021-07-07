@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/aabet/projects/philosophers/philosophers/data_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/data_func.c.o"
   "/Users/aabet/projects/philosophers/philosophers/main.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/main.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/poutines.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/poutines.c.o"
   "/Users/aabet/projects/philosophers/philosophers/simple_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/simple_func.c.o"
   "/Users/aabet/projects/philosophers/philosophers/simple_func2.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/simple_func2.c.o"
   )

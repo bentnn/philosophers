@@ -87,6 +87,9 @@
 		<Unit filename="/Users/aabet/projects/philosophers/philosophers/philo.h">
 			<Option target="philosophers"/>
 		</Unit>
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/poutines.c">
+			<Option target="philosophers"/>
+		</Unit>
 		<Unit filename="/Users/aabet/projects/philosophers/philosophers/simple_func.c">
 			<Option target="philosophers"/>
 		</Unit>

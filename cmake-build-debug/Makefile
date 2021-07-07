@@ -196,6 +196,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/main.c.s
 .PHONY : main.c.s
 
+poutines.o: poutines.c.o
+
+.PHONY : poutines.o
+
+# target to build an object file
+poutines.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/poutines.c.o
+.PHONY : poutines.c.o
+
+poutines.i: poutines.c.i
+
+.PHONY : poutines.i
+
+# target to preprocess a source file
+poutines.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/poutines.c.i
+.PHONY : poutines.c.i
+
+poutines.s: poutines.c.s
+
+.PHONY : poutines.s
+
+# target to generate assembly for a file
+poutines.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/poutines.c.s
+.PHONY : poutines.c.s
+
 simple_func.o: simple_func.c.o
 
 .PHONY : simple_func.o
@@ -265,6 +292,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... poutines.o"
+	@echo "... poutines.i"
+	@echo "... poutines.s"
 	@echo "... simple_func.o"
 	@echo "... simple_func.i"
 	@echo "... simple_func.s"

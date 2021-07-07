@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/philosophers.dir/data_func.c.o"
   "CMakeFiles/philosophers.dir/main.c.o"
+  "CMakeFiles/philosophers.dir/poutines.c.o"
   "CMakeFiles/philosophers.dir/simple_func.c.o"
   "CMakeFiles/philosophers.dir/simple_func2.c.o"
   "philosophers"
