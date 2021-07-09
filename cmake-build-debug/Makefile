@@ -142,140 +142,140 @@ philosophers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/build
 .PHONY : philosophers/fast
 
-data_func.o: data_func.c.o
+srcs/data_func.o: srcs/data_func.c.o
 
-.PHONY : data_func.o
-
-# target to build an object file
-data_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/data_func.c.o
-.PHONY : data_func.c.o
-
-data_func.i: data_func.c.i
-
-.PHONY : data_func.i
-
-# target to preprocess a source file
-data_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/data_func.c.i
-.PHONY : data_func.c.i
-
-data_func.s: data_func.c.s
-
-.PHONY : data_func.s
-
-# target to generate assembly for a file
-data_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/data_func.c.s
-.PHONY : data_func.c.s
-
-main.o: main.c.o
-
-.PHONY : main.o
+.PHONY : srcs/data_func.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/main.c.o
-.PHONY : main.c.o
+srcs/data_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/data_func.c.o
+.PHONY : srcs/data_func.c.o
 
-main.i: main.c.i
+srcs/data_func.i: srcs/data_func.c.i
 
-.PHONY : main.i
+.PHONY : srcs/data_func.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/main.c.i
-.PHONY : main.c.i
+srcs/data_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/data_func.c.i
+.PHONY : srcs/data_func.c.i
 
-main.s: main.c.s
+srcs/data_func.s: srcs/data_func.c.s
 
-.PHONY : main.s
+.PHONY : srcs/data_func.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/main.c.s
-.PHONY : main.c.s
+srcs/data_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/data_func.c.s
+.PHONY : srcs/data_func.c.s
 
-poutines.o: poutines.c.o
+srcs/main.o: srcs/main.c.o
 
-.PHONY : poutines.o
+.PHONY : srcs/main.o
 
 # target to build an object file
-poutines.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/poutines.c.o
-.PHONY : poutines.c.o
+srcs/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/main.c.o
+.PHONY : srcs/main.c.o
 
-poutines.i: poutines.c.i
+srcs/main.i: srcs/main.c.i
 
-.PHONY : poutines.i
+.PHONY : srcs/main.i
 
 # target to preprocess a source file
-poutines.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/poutines.c.i
-.PHONY : poutines.c.i
+srcs/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/main.c.i
+.PHONY : srcs/main.c.i
 
-poutines.s: poutines.c.s
+srcs/main.s: srcs/main.c.s
 
-.PHONY : poutines.s
+.PHONY : srcs/main.s
 
 # target to generate assembly for a file
-poutines.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/poutines.c.s
-.PHONY : poutines.c.s
+srcs/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/main.c.s
+.PHONY : srcs/main.c.s
 
-simple_func.o: simple_func.c.o
+srcs/routines.o: srcs/routines.c.o
 
-.PHONY : simple_func.o
+.PHONY : srcs/routines.o
 
 # target to build an object file
-simple_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func.c.o
-.PHONY : simple_func.c.o
+srcs/routines.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/routines.c.o
+.PHONY : srcs/routines.c.o
 
-simple_func.i: simple_func.c.i
+srcs/routines.i: srcs/routines.c.i
 
-.PHONY : simple_func.i
+.PHONY : srcs/routines.i
 
 # target to preprocess a source file
-simple_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func.c.i
-.PHONY : simple_func.c.i
+srcs/routines.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/routines.c.i
+.PHONY : srcs/routines.c.i
 
-simple_func.s: simple_func.c.s
+srcs/routines.s: srcs/routines.c.s
 
-.PHONY : simple_func.s
+.PHONY : srcs/routines.s
 
 # target to generate assembly for a file
-simple_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func.c.s
-.PHONY : simple_func.c.s
+srcs/routines.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/routines.c.s
+.PHONY : srcs/routines.c.s
 
-simple_func2.o: simple_func2.c.o
+srcs/simple_func.o: srcs/simple_func.c.o
 
-.PHONY : simple_func2.o
+.PHONY : srcs/simple_func.o
 
 # target to build an object file
-simple_func2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func2.c.o
-.PHONY : simple_func2.c.o
+srcs/simple_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func.c.o
+.PHONY : srcs/simple_func.c.o
 
-simple_func2.i: simple_func2.c.i
+srcs/simple_func.i: srcs/simple_func.c.i
 
-.PHONY : simple_func2.i
+.PHONY : srcs/simple_func.i
 
 # target to preprocess a source file
-simple_func2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func2.c.i
-.PHONY : simple_func2.c.i
+srcs/simple_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func.c.i
+.PHONY : srcs/simple_func.c.i
 
-simple_func2.s: simple_func2.c.s
+srcs/simple_func.s: srcs/simple_func.c.s
 
-.PHONY : simple_func2.s
+.PHONY : srcs/simple_func.s
 
 # target to generate assembly for a file
-simple_func2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/simple_func2.c.s
-.PHONY : simple_func2.c.s
+srcs/simple_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func.c.s
+.PHONY : srcs/simple_func.c.s
+
+srcs/simple_func2.o: srcs/simple_func2.c.o
+
+.PHONY : srcs/simple_func2.o
+
+# target to build an object file
+srcs/simple_func2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func2.c.o
+.PHONY : srcs/simple_func2.c.o
+
+srcs/simple_func2.i: srcs/simple_func2.c.i
+
+.PHONY : srcs/simple_func2.i
+
+# target to preprocess a source file
+srcs/simple_func2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func2.c.i
+.PHONY : srcs/simple_func2.c.i
+
+srcs/simple_func2.s: srcs/simple_func2.c.s
+
+.PHONY : srcs/simple_func2.s
+
+# target to generate assembly for a file
+srcs/simple_func2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func2.c.s
+.PHONY : srcs/simple_func2.c.s
 
 # Help Target
 help:
@@ -286,21 +286,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... philosophers"
-	@echo "... data_func.o"
-	@echo "... data_func.i"
-	@echo "... data_func.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... poutines.o"
-	@echo "... poutines.i"
-	@echo "... poutines.s"
-	@echo "... simple_func.o"
-	@echo "... simple_func.i"
-	@echo "... simple_func.s"
-	@echo "... simple_func2.o"
-	@echo "... simple_func2.i"
-	@echo "... simple_func2.s"
+	@echo "... srcs/data_func.o"
+	@echo "... srcs/data_func.i"
+	@echo "... srcs/data_func.s"
+	@echo "... srcs/main.o"
+	@echo "... srcs/main.i"
+	@echo "... srcs/main.s"
+	@echo "... srcs/routines.o"
+	@echo "... srcs/routines.i"
+	@echo "... srcs/routines.s"
+	@echo "... srcs/simple_func.o"
+	@echo "... srcs/simple_func.i"
+	@echo "... srcs/simple_func.s"
+	@echo "... srcs/simple_func2.o"
+	@echo "... srcs/simple_func2.i"
+	@echo "... srcs/simple_func2.s"
 .PHONY : help
 
 

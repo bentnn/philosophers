@@ -6,10 +6,7 @@ int	check_args(int argc, char **argv)
 
 	if (argc != 5 && argc != 6)
 		return (error_with_message("Error: wrong number of arguments\n", 0));
-	if (!is_pos_int(argv[1]) || ft_strlen(argv[1]) > 10
-		|| ft_atoi(argv[1]) < 2)
-		return (error_with_message("Error: wrong arguments\n", 0));
-	i = 2;
+	i = 1;
 	while (i < argc)
 	{
 		if (!is_pos_int(argv[i]) || ft_strlen(argv[i]) > 10
@@ -36,9 +33,9 @@ void	wait_threads(pthread_t *p, int n)
 	i = 0;
 	while (i < n)
 	{
-		if (pthread_join(*(p + i), NULL) != 0)
+		if (pthread_detach(*(p + i)) != 0)
 		{
-			printf("Error: 'tread join' error\n");
+			printf("Error: 'tread detach' error\n");
 			break ;
 		}
 		i++;

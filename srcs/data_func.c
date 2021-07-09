@@ -20,6 +20,14 @@ static t_data	*make_malloc(int n)
 		free(data);
 		return (NULL);
 	}
+	data->outp = malloc(sizeof(pthread_mutex_t));
+	if (!data->outp)
+	{
+		free(data->stop);
+		free(data->forks);
+		free(data);
+		return (NULL);
+	}
 	return (data);
 }
 
@@ -38,7 +46,7 @@ t_data	*create_simple_data(int argc, char **argv, int n)
 	data->ntme = -1;
 	if (argc == 6)
 		data->ntme = ft_atoi(argv[5]);
-	pthread_mutex_init(&data->outp, NULL);
+	pthread_mutex_init(data->outp, NULL);
 	n = 0;
 	while (n < data->n)
 	{
@@ -52,7 +60,7 @@ void	delete_data(t_data *data)
 {
 	int	i;
 
-	pthread_mutex_destroy(&data->outp);
+	pthread_mutex_destroy(data->outp);
 	i = 0;
 	while (i < data->n)
 	{
@@ -61,6 +69,7 @@ void	delete_data(t_data *data)
 	}
 	free(data->stop);
 	free(data->forks);
+	free(data->outp);
 	free(data);
 }
 
@@ -81,6 +90,7 @@ t_data	*copy_data(t_data *data)
 	new->ntme = data->ntme;
 	new->n = data->n;
 	new->is_eating = 0;
+	pthread_mutex_init(&new->deathlock, 0);
 	return (new);
 }
 

@@ -78,22 +78,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aabet/projects/philosophers/philosophers/data_func.c">
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/data_func.c">
 			<Option target="philosophers"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/philosophers/philosophers/main.c">
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/main.c">
 			<Option target="philosophers"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/philosophers/philosophers/philo.h">
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/philo.h">
 			<Option target="philosophers"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/philosophers/philosophers/poutines.c">
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/routines.c">
 			<Option target="philosophers"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/philosophers/philosophers/simple_func.c">
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/simple_func.c">
 			<Option target="philosophers"/>
 		</Unit>
-		<Unit filename="/Users/aabet/projects/philosophers/philosophers/simple_func2.c">
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c">
 			<Option target="philosophers"/>
 		</Unit>
 		<Unit filename="/Users/aabet/projects/philosophers/philosophers/CMakeLists.txt">

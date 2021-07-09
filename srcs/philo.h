@@ -18,7 +18,8 @@ typedef struct s_data
 	int				n;
 	int				is_eating;
 	int				*stop;
-	pthread_mutex_t	outp;
+	pthread_mutex_t	*outp;
+	pthread_mutex_t deathlock;
 	pthread_mutex_t	*forks;
 	struct timeval	start;
 	struct timeval	last_eating;
@@ -42,5 +43,6 @@ void			*return_and_unlock(pthread_mutex_t *first,
 void			*after_taking_a_forks(t_data *data);
 void			*routine_right(void *arg);
 void			*routine_left(void *arg);
+void write_message(const char *str, t_data *data);
 
 #endif

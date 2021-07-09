@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/aabet/projects/philosophers/philosophers/data_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/data_func.c.o"
-  "/Users/aabet/projects/philosophers/philosophers/main.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/main.c.o"
-  "/Users/aabet/projects/philosophers/philosophers/poutines.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/poutines.c.o"
-  "/Users/aabet/projects/philosophers/philosophers/simple_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/simple_func.c.o"
-  "/Users/aabet/projects/philosophers/philosophers/simple_func2.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/simple_func2.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/srcs/data_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/data_func.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/srcs/main.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/main.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/srcs/routines.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/routines.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/srcs/simple_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/simple_func.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/simple_func2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

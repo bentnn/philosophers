@@ -76,87 +76,87 @@ include CMakeFiles/philosophers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/philosophers.dir/flags.make
 
-CMakeFiles/philosophers.dir/main.c.o: CMakeFiles/philosophers.dir/flags.make
-CMakeFiles/philosophers.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/philosophers.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/main.c.o -c /Users/aabet/projects/philosophers/philosophers/main.c
+CMakeFiles/philosophers.dir/srcs/main.c.o: CMakeFiles/philosophers.dir/flags.make
+CMakeFiles/philosophers.dir/srcs/main.c.o: ../srcs/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/philosophers.dir/srcs/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/srcs/main.c.o -c /Users/aabet/projects/philosophers/philosophers/srcs/main.c
 
-CMakeFiles/philosophers.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/main.c > CMakeFiles/philosophers.dir/main.c.i
+CMakeFiles/philosophers.dir/srcs/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/srcs/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/srcs/main.c > CMakeFiles/philosophers.dir/srcs/main.c.i
 
-CMakeFiles/philosophers.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/main.c -o CMakeFiles/philosophers.dir/main.c.s
+CMakeFiles/philosophers.dir/srcs/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/srcs/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/srcs/main.c -o CMakeFiles/philosophers.dir/srcs/main.c.s
 
-CMakeFiles/philosophers.dir/simple_func.c.o: CMakeFiles/philosophers.dir/flags.make
-CMakeFiles/philosophers.dir/simple_func.c.o: ../simple_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/philosophers.dir/simple_func.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/simple_func.c.o -c /Users/aabet/projects/philosophers/philosophers/simple_func.c
+CMakeFiles/philosophers.dir/srcs/simple_func.c.o: CMakeFiles/philosophers.dir/flags.make
+CMakeFiles/philosophers.dir/srcs/simple_func.c.o: ../srcs/simple_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/philosophers.dir/srcs/simple_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/srcs/simple_func.c.o -c /Users/aabet/projects/philosophers/philosophers/srcs/simple_func.c
 
-CMakeFiles/philosophers.dir/simple_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/simple_func.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/simple_func.c > CMakeFiles/philosophers.dir/simple_func.c.i
+CMakeFiles/philosophers.dir/srcs/simple_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/srcs/simple_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/srcs/simple_func.c > CMakeFiles/philosophers.dir/srcs/simple_func.c.i
 
-CMakeFiles/philosophers.dir/simple_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/simple_func.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/simple_func.c -o CMakeFiles/philosophers.dir/simple_func.c.s
+CMakeFiles/philosophers.dir/srcs/simple_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/srcs/simple_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/srcs/simple_func.c -o CMakeFiles/philosophers.dir/srcs/simple_func.c.s
 
-CMakeFiles/philosophers.dir/data_func.c.o: CMakeFiles/philosophers.dir/flags.make
-CMakeFiles/philosophers.dir/data_func.c.o: ../data_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/philosophers.dir/data_func.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/data_func.c.o -c /Users/aabet/projects/philosophers/philosophers/data_func.c
+CMakeFiles/philosophers.dir/srcs/data_func.c.o: CMakeFiles/philosophers.dir/flags.make
+CMakeFiles/philosophers.dir/srcs/data_func.c.o: ../srcs/data_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/philosophers.dir/srcs/data_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/srcs/data_func.c.o -c /Users/aabet/projects/philosophers/philosophers/srcs/data_func.c
 
-CMakeFiles/philosophers.dir/data_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/data_func.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/data_func.c > CMakeFiles/philosophers.dir/data_func.c.i
+CMakeFiles/philosophers.dir/srcs/data_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/srcs/data_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/srcs/data_func.c > CMakeFiles/philosophers.dir/srcs/data_func.c.i
 
-CMakeFiles/philosophers.dir/data_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/data_func.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/data_func.c -o CMakeFiles/philosophers.dir/data_func.c.s
+CMakeFiles/philosophers.dir/srcs/data_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/srcs/data_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/srcs/data_func.c -o CMakeFiles/philosophers.dir/srcs/data_func.c.s
 
-CMakeFiles/philosophers.dir/simple_func2.c.o: CMakeFiles/philosophers.dir/flags.make
-CMakeFiles/philosophers.dir/simple_func2.c.o: ../simple_func2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/philosophers.dir/simple_func2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/simple_func2.c.o -c /Users/aabet/projects/philosophers/philosophers/simple_func2.c
+CMakeFiles/philosophers.dir/srcs/simple_func2.c.o: CMakeFiles/philosophers.dir/flags.make
+CMakeFiles/philosophers.dir/srcs/simple_func2.c.o: ../srcs/simple_func2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/philosophers.dir/srcs/simple_func2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/srcs/simple_func2.c.o -c /Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c
 
-CMakeFiles/philosophers.dir/simple_func2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/simple_func2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/simple_func2.c > CMakeFiles/philosophers.dir/simple_func2.c.i
+CMakeFiles/philosophers.dir/srcs/simple_func2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/srcs/simple_func2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c > CMakeFiles/philosophers.dir/srcs/simple_func2.c.i
 
-CMakeFiles/philosophers.dir/simple_func2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/simple_func2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/simple_func2.c -o CMakeFiles/philosophers.dir/simple_func2.c.s
+CMakeFiles/philosophers.dir/srcs/simple_func2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/srcs/simple_func2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c -o CMakeFiles/philosophers.dir/srcs/simple_func2.c.s
 
-CMakeFiles/philosophers.dir/poutines.c.o: CMakeFiles/philosophers.dir/flags.make
-CMakeFiles/philosophers.dir/poutines.c.o: ../poutines.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/philosophers.dir/poutines.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/poutines.c.o -c /Users/aabet/projects/philosophers/philosophers/poutines.c
+CMakeFiles/philosophers.dir/srcs/routines.c.o: CMakeFiles/philosophers.dir/flags.make
+CMakeFiles/philosophers.dir/srcs/routines.c.o: ../srcs/routines.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/philosophers.dir/srcs/routines.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/philosophers.dir/srcs/routines.c.o -c /Users/aabet/projects/philosophers/philosophers/srcs/routines.c
 
-CMakeFiles/philosophers.dir/poutines.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/poutines.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/poutines.c > CMakeFiles/philosophers.dir/poutines.c.i
+CMakeFiles/philosophers.dir/srcs/routines.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/philosophers.dir/srcs/routines.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aabet/projects/philosophers/philosophers/srcs/routines.c > CMakeFiles/philosophers.dir/srcs/routines.c.i
 
-CMakeFiles/philosophers.dir/poutines.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/poutines.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/poutines.c -o CMakeFiles/philosophers.dir/poutines.c.s
+CMakeFiles/philosophers.dir/srcs/routines.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/philosophers.dir/srcs/routines.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aabet/projects/philosophers/philosophers/srcs/routines.c -o CMakeFiles/philosophers.dir/srcs/routines.c.s
 
 # Object files for target philosophers
 philosophers_OBJECTS = \
-"CMakeFiles/philosophers.dir/main.c.o" \
-"CMakeFiles/philosophers.dir/simple_func.c.o" \
-"CMakeFiles/philosophers.dir/data_func.c.o" \
-"CMakeFiles/philosophers.dir/simple_func2.c.o" \
-"CMakeFiles/philosophers.dir/poutines.c.o"
+"CMakeFiles/philosophers.dir/srcs/main.c.o" \
+"CMakeFiles/philosophers.dir/srcs/simple_func.c.o" \
+"CMakeFiles/philosophers.dir/srcs/data_func.c.o" \
+"CMakeFiles/philosophers.dir/srcs/simple_func2.c.o" \
+"CMakeFiles/philosophers.dir/srcs/routines.c.o"
 
 # External object files for target philosophers
 philosophers_EXTERNAL_OBJECTS =
 
-philosophers: CMakeFiles/philosophers.dir/main.c.o
-philosophers: CMakeFiles/philosophers.dir/simple_func.c.o
-philosophers: CMakeFiles/philosophers.dir/data_func.c.o
-philosophers: CMakeFiles/philosophers.dir/simple_func2.c.o
-philosophers: CMakeFiles/philosophers.dir/poutines.c.o
+philosophers: CMakeFiles/philosophers.dir/srcs/main.c.o
+philosophers: CMakeFiles/philosophers.dir/srcs/simple_func.c.o
+philosophers: CMakeFiles/philosophers.dir/srcs/data_func.c.o
+philosophers: CMakeFiles/philosophers.dir/srcs/simple_func2.c.o
+philosophers: CMakeFiles/philosophers.dir/srcs/routines.c.o
 philosophers: CMakeFiles/philosophers.dir/build.make
 philosophers: CMakeFiles/philosophers.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable philosophers"

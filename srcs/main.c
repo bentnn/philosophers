@@ -9,15 +9,17 @@ void	check_a_death(t_data **array)
 	ate = 0;
 	while (i < array[0]->n)
 	{
+		pthread_mutex_lock(&array[i]->deathlock);
 		if (array[i]->is_eating == 0
-			&& time_stop(array[i]->last_eating) >= array[i]->ttd)
+			&& (int) time_stop(array[i]->last_eating) > array[i]->ttd + 1)
 		{
 			*array[i]->stop = 1;
-			pthread_mutex_lock(&array[i]->outp);
-			printf("%ldms %d died\n", time_stop(array[i]->start), array[i]->id);
-			pthread_mutex_unlock(&array[i]->outp);
+			pthread_mutex_lock(array[i]->outp);
+			write_message(" died\n", array[i]);
+			pthread_mutex_unlock(&array[i]->deathlock);
 			return ;
 		}
+		pthread_mutex_unlock(&array[i]->deathlock);
 		ate += (array[i]->ntme == 0);
 		i++;
 	}
@@ -33,6 +35,7 @@ void	end_of_main(pthread_t *p, t_data *data, t_data **temp, int n)
 	i = 0;
 	while (i < data->n)
 	{
+		pthread_mutex_destroy(&temp[i]->deathlock);
 		free(temp[i]);
 		i++;
 	}
@@ -46,9 +49,10 @@ int	start_sim(t_data *data, t_data **temp, pthread_t *p)
 	void	*func;
 
 	i = 0;
+	gettimeofday(&data->start, 0);
 	while (i < data->n)
 	{
-		gettimeofday(&temp[i]->start, 0);
+		temp[i]->start = data->start;
 		if (i % 2 == 0)
 			func = routine_right;
 		else
@@ -60,8 +64,9 @@ int	start_sim(t_data *data, t_data **temp, pthread_t *p)
 			return (error_with_message("Error: 'tread create' error\n", 1));
 		}
 		i++;
-		usleep(50);
+//		usleep(50);
 	}
+	usleep(100);
 	return (0);
 }
 
@@ -101,7 +106,7 @@ int	main(int argc, char **argv)
 	while (*data->stop == 0)
 	{
 		check_a_death(temp);
-		usleep(100);
+		usleep(150);
 	}
 	end_of_main(p, data, temp, data->n);
 	return (0);

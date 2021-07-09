@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/aabet/projects/philosophers/philosophers/main.c
+/Users/aabet/projects/philosophers/philosophers/srcs/main.c
 philo.h
-/Users/aabet/projects/philosophers/philosophers/philo.h
+/Users/aabet/projects/philosophers/philosophers/srcs/philo.h
 
-/Users/aabet/projects/philosophers/philosophers/philo.h
+/Users/aabet/projects/philosophers/philosophers/srcs/philo.h
 unistd.h
 -
 stdlib.h
