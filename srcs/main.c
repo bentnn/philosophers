@@ -11,7 +11,7 @@ void	check_a_death(t_data **array)
 	{
 		pthread_mutex_lock(&array[i]->deathlock);
 		if (array[i]->is_eating == 0
-			&& (int) time_stop(array[i]->last_eating) > array[i]->ttd + 1)
+			&& (int) time_stop(array[i]->last_eating) > array[i]->ttd)
 		{
 			*array[i]->stop = 1;
 			pthread_mutex_lock(array[i]->outp);
@@ -64,7 +64,7 @@ int	start_sim(t_data *data, t_data **temp, pthread_t *p)
 			return (error_with_message("Error: 'tread create' error\n", 1));
 		}
 		i++;
-//		usleep(50);
+		usleep(50);
 	}
 	usleep(100);
 	return (0);
@@ -106,7 +106,7 @@ int	main(int argc, char **argv)
 	while (*data->stop == 0)
 	{
 		check_a_death(temp);
-		usleep(150);
+		usleep(800);
 	}
 	end_of_main(p, data, temp, data->n);
 	return (0);
