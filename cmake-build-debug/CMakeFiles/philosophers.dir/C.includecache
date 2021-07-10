@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/aabet/projects/philosophers/philosophers/srcs/data_func.c
+philo.h
+/Users/aabet/projects/philosophers/philosophers/srcs/philo.h
+
 /Users/aabet/projects/philosophers/philosophers/srcs/main.c
 philo.h
 /Users/aabet/projects/philosophers/philosophers/srcs/philo.h
@@ -23,4 +27,20 @@ pthread.h
 -
 sys/time.h
 -
+
+/Users/aabet/projects/philosophers/philosophers/srcs/routines.c
+philo.h
+/Users/aabet/projects/philosophers/philosophers/srcs/philo.h
+
+/Users/aabet/projects/philosophers/philosophers/srcs/simple_func.c
+philo.h
+/Users/aabet/projects/philosophers/philosophers/srcs/philo.h
+
+/Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c
+philo.h
+/Users/aabet/projects/philosophers/philosophers/srcs/philo.h
+
+/Users/aabet/projects/philosophers/philosophers/srcs/simple_func3.c
+philo.h
+/Users/aabet/projects/philosophers/philosophers/srcs/philo.h
 

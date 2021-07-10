@@ -50,11 +50,11 @@ pthread_mutex_t	*get_my_left_fork(t_data *data)
 	return (&data->forks[data->n - 1]);
 }
 
-void	*return_and_unlock(pthread_mutex_t *first, pthread_mutex_t *second)
+void	check_hungry(int ate, t_data *data)
 {
-	if (first)
-		pthread_mutex_unlock(first);
-	if (second)
-		pthread_mutex_unlock(second);
-	return (NULL);
+	if (ate == data->n)
+	{
+		pthread_mutex_lock(data->outp);
+		*data->stop = 1;
+	}
 }

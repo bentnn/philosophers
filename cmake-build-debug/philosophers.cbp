@@ -96,6 +96,9 @@
 		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c">
 			<Option target="philosophers"/>
 		</Unit>
+		<Unit filename="/Users/aabet/projects/philosophers/philosophers/srcs/simple_func3.c">
+			<Option target="philosophers"/>
+		</Unit>
 		<Unit filename="/Users/aabet/projects/philosophers/philosophers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

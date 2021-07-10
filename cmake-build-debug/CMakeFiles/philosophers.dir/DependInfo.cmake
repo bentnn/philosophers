@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/aabet/projects/philosophers/philosophers/srcs/routines.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/routines.c.o"
   "/Users/aabet/projects/philosophers/philosophers/srcs/simple_func.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/simple_func.c.o"
   "/Users/aabet/projects/philosophers/philosophers/srcs/simple_func2.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/simple_func2.c.o"
+  "/Users/aabet/projects/philosophers/philosophers/srcs/simple_func3.c" "/Users/aabet/projects/philosophers/philosophers/cmake-build-debug/CMakeFiles/philosophers.dir/srcs/simple_func3.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

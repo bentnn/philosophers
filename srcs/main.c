@@ -11,7 +11,8 @@ void	check_a_death(t_data **array)
 	{
 		pthread_mutex_lock(&array[i]->deathlock);
 		if (array[i]->is_eating == 0
-			&& (int) time_stop(array[i]->last_eating) > array[i]->ttd)
+			&& (int) time_stop(array[i]->last_eating) > array[i]->ttd
+			&& array[i]->ntme != 0)
 		{
 			*array[i]->stop = 1;
 			pthread_mutex_lock(array[i]->outp);
@@ -23,8 +24,7 @@ void	check_a_death(t_data **array)
 		ate += (array[i]->ntme == 0);
 		i++;
 	}
-	if (ate == array[0]->n)
-		*array[0]->stop = 1;
+	check_hungry(ate, array[0]);
 }
 
 void	end_of_main(pthread_t *p, t_data *data, t_data **temp, int n)

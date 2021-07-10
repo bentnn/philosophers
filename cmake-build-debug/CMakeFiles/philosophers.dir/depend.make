@@ -16,3 +16,6 @@ CMakeFiles/philosophers.dir/srcs/simple_func.c.o: ../srcs/simple_func.c
 CMakeFiles/philosophers.dir/srcs/simple_func2.c.o: ../srcs/philo.h
 CMakeFiles/philosophers.dir/srcs/simple_func2.c.o: ../srcs/simple_func2.c
 
+CMakeFiles/philosophers.dir/srcs/simple_func3.c.o: ../srcs/philo.h
+CMakeFiles/philosophers.dir/srcs/simple_func3.c.o: ../srcs/simple_func3.c
+

@@ -22,12 +22,7 @@ static t_data	*make_malloc(int n)
 	}
 	data->outp = malloc(sizeof(pthread_mutex_t));
 	if (!data->outp)
-	{
-		free(data->stop);
-		free(data->forks);
-		free(data);
-		return (NULL);
-	}
+		free_data_if_error(data);
 	return (data);
 }
 

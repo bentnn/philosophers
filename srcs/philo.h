@@ -19,7 +19,7 @@ typedef struct s_data
 	int				is_eating;
 	int				*stop;
 	pthread_mutex_t	*outp;
-	pthread_mutex_t deathlock;
+	pthread_mutex_t	deathlock;
 	pthread_mutex_t	*forks;
 	struct timeval	start;
 	struct timeval	last_eating;
@@ -38,11 +38,12 @@ int				check_args(int argc, char **argv);
 long			time_stop(struct timeval tv1);
 void			wait_threads(pthread_t *p, int n);
 pthread_mutex_t	*get_my_left_fork(t_data *data);
-void			*return_and_unlock(pthread_mutex_t *first,
-					pthread_mutex_t *second);
 void			*after_taking_a_forks(t_data *data);
 void			*routine_right(void *arg);
 void			*routine_left(void *arg);
-void write_message(const char *str, t_data *data);
+void			write_message(const char *str, t_data *data);
+void			sleep_in_time(t_data *data, int time);
+void			free_data_if_error(t_data *data);
+void			check_hungry(int ate, t_data *data);
 
 #endif

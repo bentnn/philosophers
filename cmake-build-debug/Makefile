@@ -277,6 +277,33 @@ srcs/simple_func2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func2.c.s
 .PHONY : srcs/simple_func2.c.s
 
+srcs/simple_func3.o: srcs/simple_func3.c.o
+
+.PHONY : srcs/simple_func3.o
+
+# target to build an object file
+srcs/simple_func3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func3.c.o
+.PHONY : srcs/simple_func3.c.o
+
+srcs/simple_func3.i: srcs/simple_func3.c.i
+
+.PHONY : srcs/simple_func3.i
+
+# target to preprocess a source file
+srcs/simple_func3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func3.c.i
+.PHONY : srcs/simple_func3.c.i
+
+srcs/simple_func3.s: srcs/simple_func3.c.s
+
+.PHONY : srcs/simple_func3.s
+
+# target to generate assembly for a file
+srcs/simple_func3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/philosophers.dir/build.make CMakeFiles/philosophers.dir/srcs/simple_func3.c.s
+.PHONY : srcs/simple_func3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,6 +328,9 @@ help:
 	@echo "... srcs/simple_func2.o"
 	@echo "... srcs/simple_func2.i"
 	@echo "... srcs/simple_func2.s"
+	@echo "... srcs/simple_func3.o"
+	@echo "... srcs/simple_func3.i"
+	@echo "... srcs/simple_func3.s"
 .PHONY : help
 
 
